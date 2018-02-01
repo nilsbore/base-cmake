@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
+project(base-cmake)
+
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/modules")
 include(${CMAKE_CURRENT_SOURCE_DIR}/modules/Rock.cmake)
 rock_init(cmake 1.0)
